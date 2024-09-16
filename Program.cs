@@ -46,20 +46,20 @@ namespace Exercise2
                                 if (age < 20)
                                 {
                                     price = 80;
-                                    Console.WriteLine($"{age}: Ungdom\nUngdomspris: {price}kr");
+                                    Console.WriteLine($"{age} år: Ungdom\nUngdomspris: {price}kr");
                                     enterAgeMenu = false;
                                 }
                                 else if (age > 64)
                                 {
                                     price = 90;
-                                    Console.WriteLine($"{age}: Pensionär\nPensionärspris: {price}kr");
+                                    Console.WriteLine($"{age} år: Pensionär\nPensionärspris: {price}kr");
                                     enterAgeMenu = false;
                                 }
                                 else if (age >= 20 && age <= 64)
                                 {
 
                                     price = 120;
-                                    Console.WriteLine($"{age}: Standard\nStandardspris: {price}kr");
+                                    Console.WriteLine($"{age} år: Standard\nStandardspris: {price}kr");
                                     enterAgeMenu = false;
                                 }
                                 else
